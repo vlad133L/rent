@@ -1,0 +1,26 @@
+.footer__nav {
+	display: flex;
+	column-gap: 85px;
+}
+
+.footer__nav-block {
+	font-size: 14px;
+
+	li {
+		margin-bottom: 13px;
+	}
+
+	a {
+		transition: color 0.2s ease-in;
+
+		&:hover {
+			color: $accent-color;
+		}
+	}
+}
+
+.footer__nav-block-title {
+	margin-bottom: 18px;
+	font-size: 21px;
+	font-weight: 700;
+}

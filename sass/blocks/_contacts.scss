@@ -1,0 +1,52 @@
+.contacts {
+	position: relative;
+	padding-top: 200px;
+	background-image: url('./../img/svg/background.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 55px;
+	color: #fff;
+
+	&::before {
+		content: "";
+		display: block;
+		width: 743px;
+		height: 372px;
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		bottom: -1px;
+		background-image: url('./../img/svg/footeroval.svg');
+		background-size: initial;
+		background-repeat: no-repeat;
+	}
+
+	&::after {
+		content: "";
+		display: block;
+		width: 478px;
+		height: 547px;
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		margin-left: 79px;
+		bottom: -1px;
+		background-image: url('./../img/woman.png');
+		background-size: initial;
+		background-repeat: no-repeat;
+	}
+}
+
+.contact__info {
+	max-width: 360px;
+}
+
+.contact__title {
+	margin-bottom: 15px;
+}
+
+.contact__text {
+	margin-bottom: 30px;
+	max-width: 342px;
+	letter-spacing: 1.15px;
+}

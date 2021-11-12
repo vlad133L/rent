@@ -1,0 +1,40 @@
+.footer {
+	padding-top: 86px;
+	padding-bottom: 82px;
+}
+
+.footer__row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__info {
+	max-width: 306px;
+	// margin-right: 224px;
+}
+
+.footer__logo {
+	margin-bottom: 15px;
+}
+
+.logo {}
+
+.footer-__info-text {
+	margin-bottom: 40px;
+}
+
+.footer__socials {
+	display: flex;
+	column-gap: 30px;
+	align-items: center;
+
+	a img {
+		transition: opacity 0.2s ease-in;
+	}
+
+	a:hover img {
+		opacity: 0.6;
+	}
+}
+
+.footer__nav {}
